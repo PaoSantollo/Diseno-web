@@ -1,30 +1,53 @@
-.navbar {
-    width: 100%;
-    text-align: center;
+@import url("https://fonts.google.com/specimen/Poppins");
+.logo {
+  float: left;
+  display: block;
+  padding: 50px 70px; }
 
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 60px;
-    overflow: hidden;
-    background-color: white;
-  }
-
-  li a {
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 60px;
+  overflow: hidden;
+  background-color: white; }
+  nav ul li a {
     float: right;
     display: block;
-    font-family:'Raleway';
+    font-family: 'Poppins';
     font-weight: 400;
     text-align: center;
     padding: 14px 30px;
-    text-decoration: none;
-  }
-  
-  .logo{
-    float: left;
+    text-decoration: none; }
+  nav ul .navbar-left {
+    float: left; }
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative; }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+  .topnav.responsive a {
+    float: none;
     display: block;
-    padding: 50px 70px;
-    
-}
+    text-align: left; } }
+.button {
+  background-color: cyan;
+  color: white;
+  font-weight: 400;
+  margin: 10px 0px;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 0px outset;
+  outline: none;
+  float: right; }
+
+.icon-mobile {
+  width: 40px;
+  height: 40px; }
+
+/*# sourceMappingURL=style.css.map */

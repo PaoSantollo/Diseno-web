@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <LINK REL=StyleSheet HREF="css/style.css" TYPE="text/css" MEDIA=screen>
-
+    <script type="text/javascript" src="js/intro.js"></script>
   <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,20 +15,31 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
+
+
 <body>
 
-  <div class="navbar">
+  
+
+  <div class="topnav" id="myTopnav">
     <img  class="logo" src="images/logo.svg" >
     <nav >
       <ul>
-        <li class="pull-left"><a href="#SingIn">Features</a></li>
-        <li><a href="#Team">Pricing</a></li>
-        <li><a href="#Features">Resources</a></li>  
+        <li class="navbar-left"><a href="#SingIn">Features</a></li>
+        <li class="navbar-left"><a href="#Team">Pricing</a></li>
+        <li class="navbar-left"><a href="#Features">Resources</a></li>  
+        
+        <li><button class="button" href="#singup">Singup</button></li>   
         <li><a href="#login">Login</a></li> 
-        <li><a href="#singup">Sing up</a></li>       
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <img class="icon-mobile" src="images/alinear.png"></i>
+        </a>
+        
       </ul>
     </nav>
   </div>
+
 
   <div class="container-one">
     <div class="row">
@@ -41,18 +52,18 @@
             Build your brand’s recognition and get detailed insights on how your links are performing.
           </span>
         </p>
-        <button>
+        <button class="button">
           Get Started
         </button> 
       </div>
       <div class="column rigth">
-
+        <img src="images/illustration-working.svg">
       </div>
     </div>
   </div>
 
 
-  <div class="flex-container">
+  <div class="container-input">
     <div>
       <input class= "input" type="text" value="Shorten a link here...">
     </div>
@@ -119,7 +130,7 @@
    <h2>
      Boost your links today
    </h2>
-   <button>
+   <button class="button">
      Get Started
    </button>
  </div>
@@ -132,26 +143,26 @@
      <div class="column">
        <ul>
         Features
-         <li>Link Shortening</li>
-         <li>Branded Links</li>
-         <li>Analytics</li>
+         <li><a href="#link">Link Shortening</a></li>
+         <li><a href="#branded">Branded Links</a></li>
+         <li><a href="#analytics">Analytics</a></li>
        </ul>   
      </div>
      <div class="column">
        <ul>
         Resources
-         <li>Blog</li>
-         <li>Developers</li>
-         <li>Support</li>
+         <li><a href="#blog">Blog</a></li>
+         <li><a href="#developers">Developers</a></li>
+         <li><a href="#support">Support</a></li>
        </ul>
      </div>
      <div class="column">
        <ul>
         Company
-         <li>About</li>
-         <li>Our Team</li>
-         <li>Careers</li>
-         <li>Contact</li>
+         <li><a href="#about">About</a></li>
+         <li><a href="#ourTeam">Our Team</a></li>
+         <li><a href="#careers">Careers</a></li>
+         <li><a href="#contact">Contact</a></li>
        </ul>
      </div>
      <div class="column">
