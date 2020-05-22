@@ -1,0 +1,63 @@
+.navbar {
+    width: 100%;
+    text-align: center;
+
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 60px;
+    overflow: hidden;
+    background-color: white;
+    color:hsl(257, 7%, 63%);
+    text-decoration: none;
+  }
+
+  li a {
+    float: right;
+    display: block;
+    font-family:'Raleway';
+    font-weight: 400;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+
+  }
+  
+  .navbar-left{
+    float: left;
+  }
+
+  .logo{
+    float: left;
+    display: block;
+    padding: 50px 70px;
+    
+}
+
+
+
+yesterday
+    I was working on the html structure
+today
+    I'm reading about sass compiler and flexbox 
+    I install sass
+    I want start with the desing using sass
+block
+    no one 
+
+Una disculpa, ayer tuve fiebre y malestar por lo cual no estuve atenta al slack y se me paso subir mi standup. 
+
+
+yesterday
+    I was started with the desing using sass and readed about sass compiler
+today
+    I want solve the problem with the navbar, and continue or finish with the desing 
+block
+    yes, i wanted use js for the responsive navbar but i have some problems,i install node but apear some problems 
+
+
+    apis de direcciones
+
+    https://blog.hostalia.com/white-papers/localizar-direcciones-google-maps-php/

@@ -1,4 +1,4 @@
-.button{
+.button-singup{
     background-color: cyan;
     color: white;
     font-weight: 400 ;
@@ -9,4 +9,30 @@
     border:0px outset;
     outline:none;
     float: right;
+}
+
+.button-gs{
+    background-color: cyan;
+    color: white;
+    font-weight: 400 ;
+    margin: 10px 0px;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border:0px outset;
+    outline:none;
+    float: center;
+}
+
+.button-si{
+    background-color: cyan;
+    color: white;
+    font-weight: 400 ;
+    margin: 10px 0px;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border:0px outset;
+    outline:none;
+    float: center;
 }
